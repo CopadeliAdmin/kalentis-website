@@ -24,7 +24,7 @@ const Services = () => {
       title: "Bilan de Compétences",
       description: "Accompagnement personnalisé pour faire le point sur vos compétences, motivations et projet professionnel.",
       features: ["Entretiens individuels", "Tests d'aptitudes", "Plan d'action personnalisé", "Suivi post-bilan"],
-      image: "https://images.pexels.com/photos/7579319/pexels-photo-7579319.jpeg",
+      image: "https://images.pexels.com/photos/7579190/pexels-photo-7579190.jpeg",
       duration: "24h réparties sur 3 mois",
       target: "Particuliers & Salariés"
     },
@@ -32,7 +32,7 @@ const Services = () => {
       title: "Formation Management",
       description: "Développez vos compétences managériales et optimisez la performance de vos équipes commerciales.",
       features: ["Leadership situationnel", "Gestion d'équipe", "Motivation commerciale", "Pilotage de la performance"],
-      image: "https://images.pexels.com/photos/8068664/pexels-photo-8068664.jpeg",
+      image: "https://images.pexels.com/photos/9034724/pexels-photo-9034724.jpeg",
       duration: "2 à 5 jours",
       target: "Managers & Cadres"
     },
@@ -40,7 +40,7 @@ const Services = () => {
       title: "Formation Commerciale",
       description: "Techniques de vente avancées et stratégies pour maximiser vos résultats commerciaux.",
       features: ["Prospection efficace", "Négociation commerciale", "Closing techniques", "Fidélisation client"],
-      image: "https://images.pexels.com/photos/5794019/pexels-photo-5794019.jpeg",
+      image: "https://images.pexels.com/photos/7647920/pexels-photo-7647920.jpeg",
       duration: "1 à 3 jours",
       target: "Équipes commerciales"
     }
@@ -101,12 +101,16 @@ const Services = () => {
         <div className="qualiopi-section">
           <div className="qualiopi-card">
             <div className="qualiopi-icon">
-              <svg viewBox="0 0 100 100" className="qualiopi-svg">
-                <circle cx="50" cy="50" r="40" fill="#2563eb" stroke="#1e40af" strokeWidth="2"/>
-                <text x="50" y="35" textAnchor="middle" fill="white" fontSize="12" fontWeight="bold">QUALIOPI</text>
-                <text x="50" y="50" textAnchor="middle" fill="white" fontSize="8">CERTIFIÉ</text>
-                <text x="50" y="65" textAnchor="middle" fill="white" fontSize="6">2024</text>
-              </svg>
+              {/* Logo Qualiopi simplifié */}
+              <div className="qualiopi-logo">
+                <svg viewBox="0 0 120 120" className="qualiopi-svg">
+                  <circle cx="60" cy="60" r="50" fill="#2563eb" stroke="#1e40af" strokeWidth="3"/>
+                  <circle cx="60" cy="60" r="35" fill="none" stroke="white" strokeWidth="2"/>
+                  <text x="60" y="45" textAnchor="middle" fill="white" fontSize="14" fontWeight="bold">QUALIOPI</text>
+                  <text x="60" y="65" textAnchor="middle" fill="white" fontSize="10">CERTIFIÉ</text>
+                  <text x="60" y="80" textAnchor="middle" fill="white" fontSize="8">RF 2024</text>
+                </svg>
+              </div>
             </div>
             <div className="qualiopi-content">
               <h3>Certification Qualiopi</h3>

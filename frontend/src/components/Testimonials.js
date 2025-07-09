@@ -24,21 +24,18 @@ const Testimonials = () => {
       name: "Marie Lefebvre",
       role: "Directrice Commerciale",
       company: "TechSolutions",
-      image: "https://images.unsplash.com/photo-1578574577315-3fbeb0cecdc2",
       text: "La formation management de Kalentis a transformé ma façon d'encadrer mon équipe. Les outils concrets et l'accompagnement personnalisé ont permis d'améliorer nos performances de 35%."
     },
     {
       name: "Jean-Pierre Moreau",
       role: "Commercial Senior",
       company: "Particulier",
-      image: "https://images.pexels.com/photos/1181715/pexels-photo-1181715.jpeg",
       text: "Mon bilan de compétences avec Kalentis m'a permis de clarifier mes objectifs professionnels et de réussir ma transition vers un poste de manager. Un accompagnement de qualité !"
     },
     {
       name: "Sophie Dubois",
       role: "DRH",
       company: "Innov'PME",
-      image: "https://images.unsplash.com/photo-1578574577315-3fbeb0cecdc2",
       text: "Nous faisons confiance à Kalentis pour former nos équipes commerciales. Leur expertise et leur approche pédagogique font la différence. Nos commerciaux sont plus performants et motivés."
     }
   ];
@@ -66,9 +63,6 @@ const Testimonials = () => {
               </div>
               
               <div className="testimonial-author">
-                <div className="author-image">
-                  <img src={testimonial.image} alt={testimonial.name} />
-                </div>
                 <div className="author-info">
                   <h4 className="author-name">{testimonial.name}</h4>
                   <p className="author-role">{testimonial.role}</p>
