@@ -832,6 +832,7 @@ body {
   font-size: 1rem;
   transition: all 0.3s ease;
   background: var(--white);
+  font-family: inherit;
 }
 
 .form-input:focus,
@@ -842,9 +843,42 @@ body {
   box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
 }
 
+.form-input:invalid,
+.form-select:invalid,
+.form-textarea:invalid {
+  border-color: #ef4444;
+}
+
+.form-input:invalid:focus,
+.form-select:invalid:focus,
+.form-textarea:invalid:focus {
+  border-color: #ef4444;
+  box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.1);
+}
+
 .form-submit {
   width: 100%;
   margin-top: 1rem;
+  font-size: 1.1rem;
+  padding: 16px 24px;
+  background: var(--gradient-primary);
+  color: var(--white);
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: var(--shadow-lg);
+}
+
+.form-submit:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-xl);
+  background: var(--gradient-secondary);
+}
+
+.form-submit:active {
+  transform: translateY(0);
 }
 
 /* Footer */
