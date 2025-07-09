@@ -30,13 +30,13 @@ const About = () => {
     {
       name: "Dimbongo DIMBOUNJE",
       role: "Directeur, Formateur, Praticien",
-      image: "https://images.pexels.com/photos/2451566/pexels-photo-2451566.jpeg",
+      image: "https://lh3.googleusercontent.com/d/1CWAjGoe9vkvyjApsKiHPJcuFsu3OpUuh",
       expertise: "Management commercial, Leadership, Bilan de Compétences"
     },
     {
       name: "Christophe SAKSA",
       role: "Psychologue du travail & Formateur",
-      image: "https://images.pexels.com/photos/380768/pexels-photo-380768.jpeg",
+      image: "https://lh3.googleusercontent.com/d/1ksGNQKcEo7GimHBNaP6AUM3UMYQ1fQtQ",
       expertise: "Bilan de compétences, Coaching"
     }
   ];
