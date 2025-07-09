@@ -42,7 +42,7 @@ const Hero = () => {
             Développez le <span className="highlight">potentiel</span> de vos équipes
           </h1>
           <p className="hero-subtitle">
-            Organisme de formation certifié Qualiopi spécialisé dans le management commercial et les bilans de compétences. Accompagnez vos collaborateurs vers l'excellence.
+            Kalentis, l'organisme de formation spécialisé dans l'évaluation et le développement des compétences dans des équipes commerciales. Accompagnez vos collaborateurs vers l'excellence.
           </p>
           <div className="hero-buttons">
             <button onClick={scrollToContact} className="cta-primary">
@@ -55,15 +55,15 @@ const Hero = () => {
           <div className="hero-badges">
             <div className="badge">
               <span className="badge-icon">✓</span>
-              <span>Certifié Qualiopi</span>
-            </div>
-            <div className="badge">
-              <span className="badge-icon">✓</span>
-              <span>Financement CPF</span>
-            </div>
-            <div className="badge">
-              <span className="badge-icon">✓</span>
               <span>Experts certifiés</span>
+            </div>
+            <div className="badge">
+              <span className="badge-icon">✓</span>
+              <span>Financements OPCO / CPF</span>
+            </div>
+            <div className="badge">
+              <span className="badge-icon">✓</span>
+              <span>Certifié Qualiopi</span>
             </div>
           </div>
         </div>
