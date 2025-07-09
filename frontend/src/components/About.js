@@ -59,7 +59,7 @@ const About = () => {
           </div>
           
           <div className="about-image">
-            <img src="https://images.pexels.com/photos/2451566/pexels-photo-2451566.jpeg" alt="Bureau moderne Kalentis" />
+            <img src="https://lh3.googleusercontent.com/d/10GWD35GbVUkDRcyvpuShYV0oGl8Gq84e" alt="Bureau Kalentis" />
           </div>
         </div>
 
