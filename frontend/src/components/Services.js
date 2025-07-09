@@ -101,14 +101,31 @@ const Services = () => {
         <div className="qualiopi-section">
           <div className="qualiopi-card">
             <div className="qualiopi-icon">
-              {/* Logo Qualiopi simplifié */}
+              {/* Logo Qualiopi officiel */}
               <div className="qualiopi-logo">
-                <svg viewBox="0 0 120 120" className="qualiopi-svg">
-                  <circle cx="60" cy="60" r="50" fill="#2563eb" stroke="#1e40af" strokeWidth="3"/>
-                  <circle cx="60" cy="60" r="35" fill="none" stroke="white" strokeWidth="2"/>
-                  <text x="60" y="45" textAnchor="middle" fill="white" fontSize="14" fontWeight="bold">QUALIOPI</text>
-                  <text x="60" y="65" textAnchor="middle" fill="white" fontSize="10">CERTIFIÉ</text>
-                  <text x="60" y="80" textAnchor="middle" fill="white" fontSize="8">RF 2024</text>
+                <svg viewBox="0 0 300 120" className="qualiopi-svg">
+                  {/* Fond blanc */}
+                  <rect width="300" height="120" fill="white" rx="8"/>
+                  
+                  {/* Texte Qualiopi */}
+                  <text x="20" y="40" className="qualiopi-text-main" fill="#2B2B6B" fontSize="28" fontWeight="bold">Qualiopi</text>
+                  
+                  {/* Flèches rouges et bleues */}
+                  <g transform="translate(200, 20)">
+                    <path d="M0 0 L20 0 L10 20 Z" fill="#E31E24"/>
+                    <path d="M20 0 L40 0 L30 20 Z" fill="#2B2B6B"/>
+                  </g>
+                  
+                  {/* Processus certifié */}
+                  <text x="20" y="65" className="qualiopi-text-sub" fill="#2B2B6B" fontSize="14">processus certifié</text>
+                  
+                  {/* République Française */}
+                  <g transform="translate(20, 80)">
+                    <rect x="0" y="0" width="8" height="12" fill="#0055A4"/>
+                    <rect x="8" y="0" width="8" height="12" fill="white"/>
+                    <rect x="16" y="0" width="8" height="12" fill="#EF4135"/>
+                    <text x="30" y="10" className="qualiopi-text-rf" fill="#2B2B6B" fontSize="12" fontWeight="bold">RÉPUBLIQUE FRANÇAISE</text>
+                  </g>
                 </svg>
               </div>
             </div>
