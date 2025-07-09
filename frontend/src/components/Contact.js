@@ -102,7 +102,7 @@ const Contact = () => {
         <div className="contact-content">
           <div className="contact-info">
             <div className="contact-image">
-              <img src="https://images.unsplash.com/photo-1592262043973-3a79bf268545?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwzfHxwcm9mZXNzaW9uYWwlMjBkZXZlbG9wbWVudHxlbnwwfHx8YmxhY2tfYW5kX3doaXRlfDE3NTIwNzc3MTd8MA&ixlib=rb-4.1.0&q=85" alt="LEVEL UP - Développement professionnel" />
+              <img src="https://lh3.googleusercontent.com/d/1phWCPignlkoRdK5qs4dvCxqbGzPMSgXE" alt="Contactez Kalentis" />
             </div>
             
             <div className="contact-details">
