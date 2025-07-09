@@ -36,8 +36,16 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    
+    // Vérification des champs obligatoires
+    if (!formData.name || !formData.email || !formData.message) {
+      alert('Veuillez remplir tous les champs obligatoires.');
+      return;
+    }
+    
     // Simulation d'envoi - vous pourrez connecter un vrai système plus tard
-    alert('Votre message a été envoyé ! Nous vous contacterons sous 24h.');
+    alert('Votre message a été envoyé avec succès ! Nous vous contacterons sous 24h.');
+    
     setFormData({
       name: '',
       email: '',
