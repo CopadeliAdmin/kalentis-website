@@ -32,7 +32,7 @@ const Services = () => {
       title: "Formation Management",
       description: "Développez vos compétences managériales et optimisez la performance de vos équipes commerciales.",
       features: ["Leadership situationnel", "Gestion d'équipe", "Motivation commerciale", "Pilotage de la performance"],
-      image: "/images/fm-team-meeting.jpg",
+      image: "https://drive.google.com/uc?id=1TA-wUvhBtgYCDvQF_hDILTxGKo7SwWWi",
       duration: "2 à 5 jours",
       target: "Managers & Cadres"
     },
