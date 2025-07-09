@@ -40,7 +40,7 @@ const Services = () => {
       title: "Formation Commerciale",
       description: "Techniques de vente avancées et stratégies pour maximiser vos résultats commerciaux.",
       features: ["Prospection efficace", "Négociation commerciale", "Closing techniques", "Fidélisation client"],
-      image: "/images/fc-business-meeting.jpg",
+      image: "https://drive.google.com/uc?id=1m8iLhL7tV2exUzrkkOWo2mrau_47bw_P",
       duration: "1 à 3 jours",
       target: "Équipes commerciales"
     }
