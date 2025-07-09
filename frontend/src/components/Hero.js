@@ -3,6 +3,7 @@ import Logo from './Logo';
 
 const Hero = () => {
   const [isVisible, setIsVisible] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     setIsVisible(true);
@@ -11,6 +12,17 @@ const Hero = () => {
   const scrollToContact = () => {
     const contactSection = document.getElementById('contact');
     contactSection?.scrollIntoView({ behavior: 'smooth' });
+    setIsMobileMenuOpen(false);
+  };
+
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    section?.scrollIntoView({ behavior: 'smooth' });
+    setIsMobileMenuOpen(false);
+  };
+
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
   return (
@@ -28,11 +40,24 @@ const Hero = () => {
         <div className="nav-container">
           <Logo />
           <div className="nav-links">
-            <a href="#services" className="nav-link">Services</a>
-            <a href="#about" className="nav-link">À propos</a>
-            <a href="#testimonials" className="nav-link">Témoignages</a>
-            <a href="#contact" className="nav-link">Contact</a>
+            <a href="#services" onClick={(e) => { e.preventDefault(); scrollToSection('services'); }} className="nav-link">Services</a>
+            <a href="#about" onClick={(e) => { e.preventDefault(); scrollToSection('about'); }} className="nav-link">À propos</a>
+            <a href="#testimonials" onClick={(e) => { e.preventDefault(); scrollToSection('testimonials'); }} className="nav-link">Témoignages</a>
+            <a href="#contact" onClick={(e) => { e.preventDefault(); scrollToSection('contact'); }} className="nav-link">Contact</a>
           </div>
+          <div className={`nav-toggle ${isMobileMenuOpen ? 'active' : ''}`} onClick={toggleMobileMenu}>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        
+        {/* Menu mobile */}
+        <div className={`nav-menu mobile ${isMobileMenuOpen ? 'active' : ''}`}>
+          <a href="#services" onClick={(e) => { e.preventDefault(); scrollToSection('services'); }} className="nav-link">Services</a>
+          <a href="#about" onClick={(e) => { e.preventDefault(); scrollToSection('about'); }} className="nav-link">À propos</a>
+          <a href="#testimonials" onClick={(e) => { e.preventDefault(); scrollToSection('testimonials'); }} className="nav-link">Témoignages</a>
+          <a href="#contact" onClick={(e) => { e.preventDefault(); scrollToSection('contact'); }} className="nav-link">Contact</a>
         </div>
       </nav>
 
@@ -48,7 +73,7 @@ const Hero = () => {
             <button onClick={scrollToContact} className="cta-primary">
               Demander un devis
             </button>
-            <button onClick={() => document.getElementById('services').scrollIntoView({ behavior: 'smooth' })} className="cta-secondary">
+            <button onClick={() => scrollToSection('services')} className="cta-secondary">
               Découvrir nos services
             </button>
           </div>
