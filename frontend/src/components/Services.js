@@ -24,7 +24,7 @@ const Services = () => {
       title: "Bilan de Compétences",
       description: "Accompagnement personnalisé pour faire le point sur vos compétences, motivations et projet professionnel.",
       features: ["Entretiens individuels", "Tests d'aptitudes", "Plan d'action personnalisé", "Suivi post-bilan"],
-      image: "/images/bc-consultation.jpg",
+      image: "https://drive.google.com/uc?id=1RifXinGrrfH3Z3q0Y-vU94xp4YiTkaOR",
       duration: "24h réparties sur 3 mois",
       target: "Particuliers & Salariés"
     },
