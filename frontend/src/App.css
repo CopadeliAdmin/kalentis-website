@@ -328,7 +328,6 @@ body {
   overflow: hidden;
   box-shadow: var(--shadow-md);
   transition: all 0.3s ease;
-  hover: transform: translateY(-5px);
   opacity: 0;
   animation: fadeInUp 0.8s ease-out forwards;
 }
