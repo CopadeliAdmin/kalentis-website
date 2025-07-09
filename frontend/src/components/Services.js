@@ -24,7 +24,7 @@ const Services = () => {
       title: "Bilan de Compétences",
       description: "Accompagnement personnalisé pour faire le point sur vos compétences, motivations et projet professionnel.",
       features: ["Entretiens individuels", "Tests d'aptitudes", "Plan d'action personnalisé", "Suivi post-bilan"],
-      image: "https://images.pexels.com/photos/5989928/pexels-photo-5989928.jpeg",
+      image: "/images/bc-consultation.jpg",
       duration: "24h réparties sur 3 mois",
       target: "Particuliers & Salariés"
     },
@@ -32,7 +32,7 @@ const Services = () => {
       title: "Formation Management",
       description: "Développez vos compétences managériales et optimisez la performance de vos équipes commerciales.",
       features: ["Leadership situationnel", "Gestion d'équipe", "Motivation commerciale", "Pilotage de la performance"],
-      image: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg",
+      image: "/images/fm-team-meeting.jpg",
       duration: "2 à 5 jours",
       target: "Managers & Cadres"
     },
@@ -40,7 +40,7 @@ const Services = () => {
       title: "Formation Commerciale",
       description: "Techniques de vente avancées et stratégies pour maximiser vos résultats commerciaux.",
       features: ["Prospection efficace", "Négociation commerciale", "Closing techniques", "Fidélisation client"],
-      image: "https://images.unsplash.com/photo-1560422145-c7a76bc53139?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDJ8MHwxfHNlYXJjaHwzfHxidXNpbmVzcyUyMHNhbGVzJTIwbWVldGluZ3xlbnwwfHx8YmxhY2tfYW5kX3doaXRlfDE3NTIwOTUzNjZ8MA&ixlib=rb-4.1.0&q=85",
+      image: "/images/fc-business-meeting.jpg",
       duration: "1 à 3 jours",
       target: "Équipes commerciales"
     }
