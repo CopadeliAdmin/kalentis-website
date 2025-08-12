@@ -40,7 +40,7 @@ const Services = () => {
       title: "Formation Commerciale",
       description: "Techniques de vente avancées et stratégies pour maximiser vos résultats commerciaux.",
       features: ["Prospection efficace", "Négociation commerciale", "Closing techniques", "Fidélisation client"],
-      image: "https://lh3.googleusercontent.com/d/1m8iLhL7tV2exUzrkkOWo2mrau_47bw_P",
+      image: "https://customer-assets.emergentagent.com/job_managesales/artifacts/czvf6qx0_FC.jpg",
       duration: "1 à 3 jours",
       target: "Équipes commerciales"
     }
