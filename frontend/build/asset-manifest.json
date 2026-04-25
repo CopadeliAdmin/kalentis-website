@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/kalentis-website/static/css/main.c00e91e0.css",
+    "main.css": "/kalentis-website/static/css/main.6ab1915f.css",
     "main.js": "/kalentis-website/static/js/main.1d5b5ba9.js",
     "index.html": "/kalentis-website/index.html",
-    "main.c00e91e0.css.map": "/kalentis-website/static/css/main.c00e91e0.css.map",
+    "main.6ab1915f.css.map": "/kalentis-website/static/css/main.6ab1915f.css.map",
     "main.1d5b5ba9.js.map": "/kalentis-website/static/js/main.1d5b5ba9.js.map"
   },
   "entrypoints": [
-    "static/css/main.c00e91e0.css",
+    "static/css/main.6ab1915f.css",
     "static/js/main.1d5b5ba9.js"
   ]
 }
